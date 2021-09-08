@@ -29,48 +29,49 @@
     /* Your styles here */
     .container {
       /* Use display grid */
-      
+      display: grid;
       /* define some columns with grid-template-columns make three columns */
-      
+      grid-template-columns: 1fr 1fr 1fr;
       /* define a grid-gap of 1rem */
-      
+      grid-gap: 1rem;
       /* Define grid-template-areas 
         The value here is a string that describes the grid
         as rows and columns:
 
         "h h h"
         "s m m"
-        "f f f"; <- The semicolon should go at the end!
+        "f f f"
 
         Use h for the header
         s for sidebar
         m for main
         and f for footer
       */
-      
+      grid-template-areas: "h h h"
+                           "s m m"
+                           "f f f";
     }
   
-    /* Next map the each of the elements to the grid */
-
+    /* Now map the each of the elements to the grid */
     .box {
       min-height: 100px;
     }
   
     .a {
       /* Map div.a to the header area with grid-area: h */
-      
+      grid-area: h;
       background-color: #d45353;
     }
   
     .b {
       /* Map div.b to the sidebar area with grid-area: s */
-      
+      grid-area: s;
       background-color: #eae55e;
     }
   
     .c {
       /* Map div.c to the main area with grid-area: m */
-      
+      grid-area: m;
       background-color: #65d451;
     }
   

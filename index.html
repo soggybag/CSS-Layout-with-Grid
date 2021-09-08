@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <meta 
       name='viewport' 
       content='width=device-width, initial-scale=1.0, maximum-scale=1.0' 
     />
+    
   </head>
   <body>
 <!-- 
@@ -112,24 +114,21 @@
     background-color: #ed979e
   }
 
-  /* Extra small devices (phones, 600px and down) */
+
+
+
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
   .wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 100px;
-    /* 
-    The named areas below define where elements with
-    those names are placed on the grid. 
-    */
+   
     grid-template-areas:  "h h h h"
                           "r r r r"
-                          "s s s s"
-                          "m m m m"
-                          "g g g g" 
-                          "f f f f";
+                          "s s m m" 
+                          "f f g g";
+
   }
+
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -151,6 +150,7 @@
 @media only screen and (min-width: 1200px) {
 
 }
+
 
 </style>
 

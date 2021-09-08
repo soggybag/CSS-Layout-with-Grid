@@ -68,20 +68,6 @@ Your job is to try and recreate the grids in the image with html/CSS. You can st
 
 Try to recreate each of the images with HTML and CSS. 
 
-## After Class
-
-The goal is to apply a grid to your personal web site. Don't feel like your grid has to be complicated with many columns in different proportions. It's more important that you have a grid than having a complex grid. 
-
-- Design a grid for your site
-  - Draw it on paper or use an application like Sketch
-    - Stretch challenge: 
-      - Draw three vesions of your grid
-      - Consider different columns arrangements using 3 and 4
-  - Identify the element that will be the grid container
-  - Identify the grid items
-    - These should be children of the grid container
-  - Use grid areas to layout your elements on the grid
-
 ## Additional Resources
 
 1. https://webdesign.tutsplus.com/articles/a-comprehensive-introduction-to-grids-in-web-design--cms-26521

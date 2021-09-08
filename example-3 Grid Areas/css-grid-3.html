@@ -53,17 +53,18 @@
   
   .wrapper {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 20px;
     
     /* repeat 1fr 4 times */
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100px);
     
     /* The named areas below define where elements with
     those names are placed on the grid. */
-    grid-template-areas:  "h h n g" 
+    grid-template-areas:  "h h n r" 
                           "s m m m" 
                           "s m m m"
-                          "r r r f";
+                          "f f f g";
   }
   
   /* Some styles for all grid cells */
